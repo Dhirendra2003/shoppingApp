@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active{
+  background-color: rgb(39, 39, 42);
+  text-decoration: underline rgb(255, 98, 0);
+  text-underline-offset: 8px;
+  color: rgb(255, 98, 0);
+  font-weight: 600;
+  border: none;
+}
+
+
+
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.inter-space *{
+padding:0 10px; 
+}
+
+.intpad *{
+  padding:  10px 0;
+   
+  }
